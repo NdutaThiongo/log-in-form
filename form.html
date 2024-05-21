@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>log in form</title>
+</head>
+<body>
+	<style>
+		form{
+			background-color:darkorange;
+			width: 600px;
+			padding: 50px;
+			margin: 30px;
+		}
+	</style>
+	<pre>
+	<form action="/submit"action="post">
+		<h2>STUDENT LOG IN FORM</h2>
+		<label for="firstname">Firstname</label>
+		<input type="text" id="name"placeholder="insert your firstname"required><br>
+		<label for="lastname">lastname</label>
+		<input type="text" id="name"placeholder=" enter your lastname"required><br>
+		<label for="email">Email</label>
+		<input type="email" name="email"id="email"placeholder=" enter your email address"required><br>
+		<label for="date of admission">Date of admission</label>
+		<input type="date" name="date of bith" min="17" max="100"placeholder="dd.mm.yyyy"><br>
+		<label for="username">set user name</label>
+		<input type="text" name="name"placeholder="set user name"required><br>
+		<label for="password">password</label> 
+		<input type id="password" name="password"placeholder="set password"required min-length="8"><br>
+		<label  for="gender" id="gender"name="gender">gender</label><br>
+		<input type="radio" name="gender"value="female">
+		<label for="gender" name="female">female</label><br>
+		<input type="radio" name="gender" value="male">
+		<label for="gender" name ="male">Male</label><br>	
+		<input type="radio" name="gender"value="others">
+		<label for="gender" name ="others">Others</label><br>
+		<label for="course">course</label>
+		<select id="course"name="course" placeholder="course"required>
+			<option  value="">select</option>
+			<option value="Bachelors degree in Nursing">Bachelors degree in nursing</option>
+			<option value="Bchelors degree in Medicine and surgery">Bachelors degree in medicine and surgery</option>
+			<option value="Bchelors degree in Data security">Bachelors degree in Data security </option>
+			<option value="Bchelors degree in international relations ">Bachelors degree in international relations </option><option value="Bchelors degree in Information and Technology ">Bachelors degree in Information and Technology</option>
+			<input type="register" value ="register">
+			<label for="checkbox"id="register" name="register"placeholder="register" required ><br>
+				
+
+		</select>
+	</form>
+</pre>
+</body>
+</html>
