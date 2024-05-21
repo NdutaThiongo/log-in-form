@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>external</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+  <style>  
+  h2{
+    font-size:50px;
+    font-style:italic;
+    font-weight:bold;
+  </style>
+</head>
+<body >
+	<h1 class="h">external css</h1>
+ <p class="k">external css is one of the three forms of css 
+ </p>
+</body>
+</html>
